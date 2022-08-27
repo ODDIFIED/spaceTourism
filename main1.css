@@ -891,7 +891,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
@@ -998,7 +998,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
@@ -1533,7 +1533,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
@@ -1640,7 +1640,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
@@ -1748,7 +1748,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
@@ -1856,7 +1856,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
@@ -1964,7 +1964,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 4vh;
@@ -2072,7 +2072,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 4vh;
@@ -2180,7 +2180,7 @@ section{
     *{
         background-image: url(./images/background-home-mobile.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: cover;
     }
     .logo img{
         height: 4vh;
