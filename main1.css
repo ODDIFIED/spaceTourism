@@ -1416,10 +1416,10 @@ section{
     .content_right{
         margin:80px auto;
         width: 40%;
-        height: 23vh
+        height: 24vh
     }
     .content_right p{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 @media (min-width: 400px) and (max-width: 411px) {
