@@ -1319,7 +1319,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: 500px 700px;
     }
     .logo img{
         height: 5vh;
@@ -1355,14 +1355,14 @@ section{
         position: absolute;
         display: none;
         top: 0px;
-        left: 215px;
+        left: 213px;
         -webkit-box-align: 100%;
     }
     .nav_items a{
         width: 100%;
         margin-left: 0px;
         display: inline-block;
-        margin-top: 60px;
+        margin-top: 100px;
         text-align: right;
     }
     .nav_items:hover{
@@ -1416,7 +1416,7 @@ section{
     .content_right{
         margin:80px auto;
         width: 40%;
-        height: 35vh
+        height: 32vh
     }
     .content_right p{
         font-size: 1.7rem;

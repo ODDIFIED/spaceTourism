@@ -2063,7 +2063,7 @@ section{
         position: absolute;
         display: none;
         top: 0px;
-        left: 110px;
+        left: 190px;
     }
     
     .nav_items a{
@@ -2149,10 +2149,10 @@ section{
     }
     .right_side img{
       padding: 0px;
-      height: 70vh;
+      height: 50vh;
       position: relative;
       top: 33px;
-      left: 40px;    
+      left: 80px;    
 
 }
 }
