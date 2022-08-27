@@ -1319,7 +1319,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     .logo img{
         height: 5vh;
