@@ -1426,7 +1426,7 @@ section{
     *{
         background-image: url(./images/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 500px 600px;
+        background-size: 500px 800px;
     }
     .logo img{
         height: 5vh;
@@ -1523,7 +1523,7 @@ section{
     .content_right{
         margin:80px auto;
         width: 40%;
-        height: 35vh
+        height: 30vh
     }
     .content_right p{
         font-size: 1.7rem;
