@@ -613,7 +613,7 @@ section{
         width: 100%;
         margin-left: 0px;
         display: inline-block;
-        margin-top: 60px;
+        flex-direction: column;
         text-align: right;
     }
     .nav_items:hover{
@@ -1341,7 +1341,6 @@ section{
     nav{
         width: 100%;
         max-width: 500px;
-        justify-content: space-evenly;
         margin-top: -10px;
         padding: auto;
         /* border: 1px solid red; */
@@ -1349,7 +1348,7 @@ section{
     .nav_items{
         width: 50%;
         max-width: 300px;
-        padding: 10px 10px 70px 10px;
+        padding: 70px 10px 70px 10px;
         margin-top: 70px;
         /* margin-left: 80px; */
         position: absolute;
@@ -1361,12 +1360,18 @@ section{
     .nav_items a{
         width: 100%;
         margin-left: 0px;
-        display: inline-block;
-        margin-top: 100px;
-        text-align: right;
+        display: inline-flex;
+        margin-top: 10px;
+    }
+    .nav_items :hover{
+        display: none;
     }
     .nav_items:hover{
-        text-underline-offset: 0px;
+        display: none;
+    }
+    .nav_items a:hover{
+        display: none;
+
     }
     #toggle:checked ~ .nav_items{
         display: block;
@@ -1772,7 +1777,7 @@ section{
         max-width: 500px;
         justify-content: space-evenly;
         margin-top: -10px;
-        padding: auto;
+
         /* border: 1px solid red; */
     }
     .nav_items{
@@ -1790,12 +1795,12 @@ section{
     .nav_items a{
         width: 100%;
         margin-left: 0px;
-        display: inline-block;
+        display: inline-flex;
         margin-top: 60px;
-        text-align: right;
+        text-align: left;
     }
-    .nav_items:hover{
-        text-underline-offset: 0px;
+    .nav_items a:hover{
+        display: none;
     }
     #toggle:checked ~ .nav_items{
         display: block;
