@@ -1346,29 +1346,22 @@ section{
         /* border: 1px solid red; */
     }
     .nav_items{
-        width: 50%;
-        max-width: 300px;
-        padding: 70px 10px 70px 10px;
+        width: 100%;
+        max-width: 200px;
+        padding: 10px 10px 10px 10px;
         margin-top: 70px;
         /* margin-left: 80px; */
         position: absolute;
         display: none;
         top: 0px;
         left: 213px;
-        -webkit-box-align: 100%;
     }
     .nav_items a{
-        width: 100%;
         margin-left: 0px;
-        display: inline-flex;
-        margin-top: 60px;
+        display: flex;
+        margin-top: 30px;
     }
-    .nav_items :hover{
-        display: none;
-    }
-    .nav_items:hover{
-        display: none;
-    }
+    
     .nav_items a:hover{
         display: none;
 
