@@ -24,35 +24,36 @@
     </nav>
     <main>
         <section>
-            <div class="left_side">
-                <p><span>01</span>   Pick your destination</p>
-                <img src="./images/image-mars.png" alt="mars">
-            </div>
-            <div class="right_side">
-                <div class="link">
-                <a href="#">moon</a>
-                <a href="#">mars</a>
-                <a href="#">europa</a>
-                <a href="#">titan</a><br><br>
-                </div> 
-                <h1>mars</h1>
-                <p> See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-                    regain perspective and come back refreshed. While you’re there, take in some history 
-                    by visiting the Luna 2 and Apollo 11 landing sites.</p><br>
-                    <hr><br>
-                    <div class="overrall">
-                        <div class="last_content">
-                            <span>Avg. distance</span>
-                            <span>Est. travel time</span>
-                            
-                        </div><br>
-                        <div class="final">
-                            <p>384,400 km</p>
-                            <p>3 days</p>
-                        </div>
+                
+                    <div class="left-side">
+                        <p><span>01</span> Pick your destination</p>
+                        <img id="pic" src="./images/image-moon.png" alt="mars">
                     </div>
+            <div class="right-side">
+                <div class="link">
+                    <a id="moon-btn" onclick="handleClick('moon')">Moon</a>
+                    <a id="mars-btn" onclick="handleClick('mars')">Mars</a>
+                    <a id="europa-btn" onclick="handleClick('europa')">Europa</a>
+                    <a id="titan-btn" onclick="handleClick('titan')">Titan</a>
+                </div>
+                    <h2 id="moonName" >moon</h2>
+                    <p id="moonPar">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                        regain perspective and come back refreshed. While you’re there, take in some history 
+                        by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                        <div class="big-con">
+                            <hr>
+                            <div class="avg">
+                                <a>Avg. distance</a>
+                                <a>Est. travel time</a>
+                            </div>
+                            <div class="time">
+                                <a id="moonTime">384,400</a>
+                                <a id="moonday">3 days</a>
+                            </div>
+                       </div>
             </div>
         </section>
     </main>
+    <script src="./app.js"></script>
 </body>
 </html>

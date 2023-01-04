@@ -28,14 +28,14 @@
                 <h5><span>03</span> Space launch 101</h5>
                 <div class="list">
                 <div class="list_circle">
-                    <div class="circle"><b>1</b></div>
-                    <div class="circle"><b>2</b></div>
-                    <div class="circle"><b>3</b></div>
+                    <div id="circleOne" onclick="circleClick()">1</div>
+                    <div id="circleTwo" onclick="circleClick()">2</div>
+                    <div id="circleThree" onclick="circleClick()">3</div>
                 </div>
                     
                     <div class="small_text">
-                        <h5>The terminology...</h5><h4>Launch vehicle
-                        </h4><p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+                        <h5 >The terminology...</h5><h4 id="launch">Launch vehicle
+                        </h4><p id="paraterm">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
                             payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
                             WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
                             it's quite an awe-inspiring sight on the launch pad!</p>
@@ -45,9 +45,10 @@
                 
             </div>
             <div class="right_side">
-               <img src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="" srcset="">
+               <img id="pic-term" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="pic">
             </div>
         </section>
     </main>
+    <script src="./app.js"></script>
 </body>
 </html>
