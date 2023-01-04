@@ -499,7 +499,7 @@ h6 {
     }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .logo img {
         height: 6h;
         position: relative;
@@ -540,6 +540,13 @@ h6 {
     #toggle:checked~.nav_items {
         display: inline-block;
     }
+    main {
+        /* border: 1px solid red; */
+        width: 100%;
+        max-width: 800px;
+        margin: 170px auto;
+        height: 80vh;
+    }
 }
 
 @media screen and (max-width: 599px) {
@@ -549,7 +556,7 @@ h6 {
         box-sizing: border-box;
         background-attachment: fixed;
         background-image: url(./images/background-home-mobile.jpg);
-        background-size: contain;
+        background-size: cover;
     }
     .nav_items a {
         display: flex;
@@ -577,11 +584,11 @@ h6 {
         /* border: 1px solid red; */
         width: 100%;
         max-width: 800px;
-        margin: 130px auto;
+        margin: 50px auto;
         height: 50vh;
     }
     
-    section {
+    section{
         flex-direction: column;
     }
     
@@ -614,16 +621,19 @@ h6 {
         font-weight: 200;
         line-height: 25px;
         width: 75%;
-        margin-left: 65px;
+        margin-left: 55px;
         text-align: center;
     }
     
     .content_right {
         border-radius: 50%;
         width: 50%;
-        height: 30vh;
+        height: 28vh;
         border: 1px solid white;
         background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 70px;
         margin-left: 110px;
     }
@@ -631,6 +641,210 @@ h6 {
     .content_right p {
         color: rgb(2, 2, 48);
         font-size: 2em;
+        font-weight: 600;
+        text-align: center;
+        background-image: none;
+        background-color: none;
+        margin: 75px auto;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-attachment: fixed;
+        background-image: url(./images/background-home-mobile.jpg);
+        background-size: cover;
+    }
+    .nav_items a {
+        display: flex;
+        font-size: 1.2em;
+        gap: 0px;
+        color: white;
+        font-weight: 600;
+        margin-left: 0;
+        margin-top: 70px;
+        position: relative;
+        top: 90px;
+    }
+
+    .nav_items span {
+        display: none;
+    }
+
+    .nav_items a:hover {
+        text-decoration: underline;
+        text-underline-offset: 22px;
+    }
+    
+    
+    main {
+        /* border: 1px solid red; */
+        width: 100%;
+        max-width: 800px;
+        margin: 50px auto;
+        height: 70vh;
+    }
+    
+    section{
+        flex-direction: column;
+    }
+    
+    .content {
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h4 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 16px;
+        font-weight: 100;
+        font-size: 1.7em;
+        margin-left: 0px;
+        text-transform: uppercase;
+    }
+    
+    p {
+        font-family: "Cormorant SC";
+        text-transform: uppercase;
+        font-size: 7rem;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+    
+    h6 {
+        font-size: 1em;
+        font-family: "lato";
+        font-weight: 200;
+        line-height: 25px;
+        width: 75%;
+        margin-left: 53px;
+        text-align: center;
+    }
+    
+    .content_right {
+        border-radius: 50%;
+        width: 50%;
+        height: 28vh;
+        border: 1px solid white;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+    
+    .content_right p {
+        color: rgb(2, 2, 48);
+        font-size: 1.8em;
+        font-weight: 600;
+        text-align: center;
+        background-image: none;
+        background-color: none;
+        margin: 75px auto;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-attachment: fixed;
+        background-image: url(./images/background-home-mobile.jpg);
+        background-size: cover;
+    }
+
+   
+   
+    
+    .nav_items a {
+        display: flex;
+        font-size: 1.2em;
+        gap: 0px;
+        color: white;
+        font-weight: 600;
+        margin-left: 0;
+        margin-top: 50px;
+        position: relative;
+        top: 50px;
+    }
+
+    .nav_items span {
+        display: none;
+    }
+
+    .nav_items a:hover {
+        text-decoration: underline;
+        text-underline-offset: 22px;
+    }
+    
+    
+    main {
+        /* border: 1px solid red; */
+        width: 100%;
+        max-width: 800px;
+        margin: 50px auto;
+        height: 50vh;
+    }
+    
+    section{
+        flex-direction: column;
+    }
+    
+    .content {
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h4 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 16px;
+        font-weight: 100;
+        font-size: 1.2em;
+        margin-left: 0px;
+        text-transform: uppercase;
+    }
+    
+    p {
+        font-family: "Cormorant SC";
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+    
+    h6 {
+        font-size: 0.9em;
+        font-family: "lato";
+        font-weight: 200;
+        line-height: 25px;
+        width: 67%;
+        margin-left: 57px;
+        text-align: center;
+    }
+    
+    .content_right {
+        border-radius: 50%;
+        width: 50%;
+        height: 33vh;
+        border: 1px solid white;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 65px;
+        margin-left: 85px;
+    }
+    
+    .content_right p {
+        color: rgb(2, 2, 48);
+        font-size: 1.5em;
         font-weight: 600;
         text-align: center;
         background-image: none;
