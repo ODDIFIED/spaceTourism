@@ -520,8 +520,10 @@ h6 {
 
 
     .nav_items a:hover {
-        display: none;
+        text-decoration: underline;
+        text-underline-offset: 22px;
     }
+    
 
     nav label {
         display: inline;
@@ -551,7 +553,7 @@ h6 {
     }
     .nav_items a {
         display: flex;
-        font-size: 2em;
+        font-size: 1.2em;
         gap: 0px;
         color: white;
         font-weight: 600;
@@ -566,9 +568,10 @@ h6 {
     }
 
     .nav_items a:hover {
-        text-decoration: none;
-        text-underline-offset: unset;
+        text-decoration: underline;
+        text-underline-offset: 22px;
     }
+    
     
     main {
         /* border: 1px solid red; */
