@@ -59,7 +59,7 @@ const handleClick = () => {
  var btnTwo = document.querySelector('#circle-two')
  var btnThree = document.querySelector('#circle-three')
  var btnFour = document.querySelector('#circle-four')
- var button = document.querySelector ('a')
+//  var button = document.querySelector ('a')
 
  const buttonClick = () =>{
     btnTwo.onclick = function (){
@@ -90,7 +90,7 @@ const handleClick = () => {
         biograph.innerHTML = "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
         firstName.innerHTML = "ANOUSHEH ANSARI"
         image.src = "./assets/crew/image-anousheh-ansari.png"
-        firstName.style.width = "130%" 
+        firstName.style.width = "100%" 
         firstName.style.fontSize = "2.2rem" 
     }
  }
