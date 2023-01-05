@@ -267,7 +267,7 @@ h6 {
     }
 }
 
-@media (min-width: 801px) and (max-width: 999px) {
+@media screen and (max-width: 999px) {
     * {
         margin: 0;
         padding: 0;
@@ -372,6 +372,9 @@ h6 {
         background: white;
         margin-top: 70px;
         margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content_right p {
@@ -501,7 +504,7 @@ h6 {
 
 @media screen and (max-width: 600px) {
     .logo img {
-        height: 6h;
+        height: 6vh;
         position: relative;
         top: -5px;
     }
@@ -573,7 +576,7 @@ h6 {
     .nav_items span {
         display: none;
     }
-
+    
     .nav_items a:hover {
         text-decoration: underline;
         text-underline-offset: 22px;
