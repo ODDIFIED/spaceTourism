@@ -91,7 +91,7 @@ const handleClick = () => {
         firstName.innerHTML = "ANOUSHEH ANSARI"
         image.src = "./assets/crew/image-anousheh-ansari.png"
         firstName.style.width = "100%" 
-        firstName.style.fontSize = "2.2rem" 
+        firstName.style.fontSize = "2em" 
     }
  }
  holder.addEventListener("click" , buttonClick)

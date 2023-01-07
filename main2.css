@@ -495,8 +495,8 @@ section{
     }
     .nav_items{
         position: fixed;
-        height: 120vh;
-        padding: 10px;
+        inset: 0 0 0 0;
+        padding: min(2vh, 20rem);
         display: none;
     }
     #toggle:checked ~.nav_items {
