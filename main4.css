@@ -672,8 +672,8 @@ section {
     main {
         width: 100%;
         max-width: 500px;
-        height: 110vh;
-        margin: 40px auto;
+        height: 130vh;
+        margin: 20px auto;
         background-image: none;
     }
     .left_side h5 {
