@@ -118,7 +118,7 @@ section {
 
 .left_side>h2 {
     color: white;
-    width: 105%;
+    width: 100%;
     margin-top: 3px;
     font-size: 2.8rem;
     font-family: 'Cormorant SC', serif;
@@ -204,7 +204,6 @@ section {
     }
 
     .left_side>h2 {
-        border: 1px solid red;
         color: white;
         width: 20%;
         margin-top: 3px;
@@ -238,7 +237,7 @@ section {
         margin: 0;
         padding: 0;
         background-attachment: fixed;
-        background-image: url(./assets/crew/background-crew-tablet.jpg);
+        background-image: url(images/background-crew-tablet.jpg);
         background-size: cover;
     }
 
@@ -262,20 +261,15 @@ section {
         margin: 0px auto;
         background: none;
         padding: 10px;
-        /* border: 1px solid solid blue; */
     }
-
-    .nav_items {
-        width: 100%;
-        max-width: 600px;
-        padding: 40px;
+    .nav_items{
+        padding: 50px;
         position: relative;
-        top: 0px;
+        top: -10px;
         left: 90px;
     }
-
     .nav_items a{
-        margin-left: 35px;
+        margin-left: 45px;
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.5em;
         font-weight: 100;
@@ -286,7 +280,9 @@ section {
         text-decoration: underline;
         text-underline-offset: 50px;
     }
-
+    nav span{
+        display: none;
+    }
     main {
         width: 100%;
         max-width: 800px;
@@ -322,7 +318,7 @@ section {
         text-align: center;
         color: white;
         margin-top: 3px;
-        margin-left: -0px;
+        margin-left: 0px;
         font-size: 2.7rem;
         font-family: 'Cormorant SC', serif;
         font-weight: 100;
@@ -338,7 +334,7 @@ section {
     }
 
     .left_side p {
-        width: 90%;
+        width: 100%;
         text-align: center;
         margin-top: 30px;
         margin-left: 50px;
