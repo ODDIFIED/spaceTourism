@@ -622,7 +622,7 @@ section {
 
     nav label {
         display: inline;
-        font-size: 6vh;
+        font-size: 5vh;
         position: relative;
         top: -5px;
         left: 80px;
@@ -633,7 +633,7 @@ section {
     }
 
     .logo img {
-        height: 6vh;
+        height: 5vh;
         position: relative;
         top: -5px;
         left: -80px;
@@ -643,7 +643,7 @@ section {
         display: none;
         width: 100%;
         inset: 0 0 0 40%;
-        padding: min(2vh, 10rem);
+        padding: min(2vh, 6rem);
         position: fixed;
         background: rgba(255, 255, 255, 0.078);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
@@ -716,7 +716,7 @@ section {
     main {
         width: 100%;
         max-width: 420px;
-        height: 120vh;
+        height: 100%;
         margin: 60px auto;
         background-image: none;
     }
@@ -788,7 +788,6 @@ section {
     main {
         width: 100%;
         max-width: 400px;
-        height: 140vh;
         margin: 40px auto;
         background-image: none;
     }
@@ -831,7 +830,6 @@ section {
     main {
         width: 100%;
         max-width: 400px;
-        height: 140vh;
         margin: 40px auto;
         background-image: none;
     }
@@ -888,7 +886,6 @@ section {
     main {
         width: 100%;
         max-width: 400px;
-        height: 160vh;
         margin: 10px auto;
         background-image: none;
     }

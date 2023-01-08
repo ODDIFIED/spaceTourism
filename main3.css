@@ -604,7 +604,6 @@ section {
     main {
         width: 100%;
         max-width: 800px;
-        height: 140vh;
         margin: 20px auto;
     }
     .left_side h6 {
