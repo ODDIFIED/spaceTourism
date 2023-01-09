@@ -503,7 +503,7 @@ h6 {
 
 @media screen and (max-width: 600px) {
     .logo img {
-        height: 6vh;
+        height: 5vh;
         position: relative;
         top: -5px;
     }
@@ -529,7 +529,7 @@ h6 {
 
     nav label {
         display: inline;
-        font-size: 6vh;
+        font-size: 5vh;
         position: relative;
         top: -5px;
         left: -30px;
