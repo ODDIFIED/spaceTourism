@@ -546,9 +546,6 @@ h6 {
 
 @media screen and (max-width: 599px) {
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
         background-attachment: fixed;
         background-image: url(./images/background-home-mobile.jpg);
         background-size: cover;
@@ -645,9 +642,7 @@ h6 {
 }
 
 @media screen and (max-width: 399px) {
-    * {
-        margin: 0;
-        padding: 0;
+    *{
         box-sizing: border-box;
         background-attachment: fixed;
         background-image: url(./images/background-home-mobile.jpg);
@@ -761,9 +756,6 @@ h6 {
 
 @media screen and (max-width: 321px) {
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
         background-attachment: fixed;
         background-image: url(./images/background-home-mobile.jpg);
         background-size: cover;
