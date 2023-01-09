@@ -622,7 +622,7 @@ section {
 
     nav label {
         display: inline;
-        font-size: 5vh;
+        font-size: 5.5vh;
         position: relative;
         top: -5px;
         left: 80px;
@@ -633,7 +633,7 @@ section {
     }
 
     .logo img {
-        height: 5vh;
+        height: 5.5vh;
         position: relative;
         top: -5px;
         left: -80px;
@@ -789,6 +789,7 @@ section {
         width: 100%;
         max-width: 400px;
         margin: 40px auto;
+        height: 100%;
         background-image: none;
     }
     .right_side {
@@ -831,6 +832,7 @@ section {
         width: 100%;
         max-width: 400px;
         margin: 40px auto;
+        height: 100%;
         background-image: none;
     }
     .right_side {
@@ -887,6 +889,7 @@ section {
         width: 100%;
         max-width: 400px;
         margin: 10px auto;
+        height: 100%;
         background-image: none;
     }
  
@@ -912,8 +915,7 @@ section {
     }
     
     .small_text h6 {
-        border: 1px solid red;
-        z-index: 100;
+        /* border: 1px solid red; */
         font-size: 1em;
         text-align: center;
         margin-left: 0px;

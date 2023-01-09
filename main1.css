@@ -503,7 +503,7 @@ h6 {
 
 @media screen and (max-width: 600px) {
     .logo img {
-        height: 5vh;
+        height: 5.5vh;
         position: relative;
         top: -5px;
     }
@@ -515,10 +515,9 @@ h6 {
     .nav_items {
         position: fixed;
         inset: 0 0 0 40%;
-        padding: min(2vh, 10rem);
+        padding: min( 2vh , 10rem);
         display: none;
     }
-
 
 
     .nav_items a:hover {
@@ -529,7 +528,7 @@ h6 {
 
     nav label {
         display: inline;
-        font-size: 5vh;
+        font-size: 5.5vh;
         position: relative;
         top: -5px;
         left: -30px;
@@ -560,7 +559,7 @@ h6 {
         gap: 0px;
         color: white;
         font-weight: 600;
-        margin-left: 0;
+        margin-left: -20px;
         margin-top: 70px;
         position: relative;
         top: 90px;
@@ -581,7 +580,7 @@ h6 {
         width: 100%;
         max-width: 800px;
         margin: 50px auto;
-        height: 100%;
+        height: 110vh;
     }
     
     section{
@@ -660,7 +659,7 @@ h6 {
         gap: 0px;
         color: white;
         font-weight: 600;
-        margin-left: 0;
+        margin-left: 0px;
         margin-top: 70px;
         position: relative;
         top: 90px;

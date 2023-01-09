@@ -496,7 +496,7 @@ section{
     .nav_items{
         position: fixed;
         inset: 0 0 0 0;
-        padding: min(2vh, 20rem);
+        padding: min(2vh, 10rem);
         display: none;
     }
     #toggle:checked ~.nav_items {

@@ -605,6 +605,7 @@ section {
         width: 100%;
         max-width: 800px;
         margin: 20px auto;
+        height: 100%;
     }
     .left_side h6 {
         font-family: 'Roboto Condensed', sans-serif;
