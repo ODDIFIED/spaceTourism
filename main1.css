@@ -618,7 +618,7 @@ h6 {
     .content_right {
         border-radius: 50%;
         width: 50%;
-        height: 25vh;
+        height: 27vh;
         border: 1px solid white;
         background: white;
         display: flex;
@@ -636,6 +636,20 @@ h6 {
         background-image: none;
         background-color: none;
         margin: 75px auto;
+    }
+}
+@media (min-width: 400px) and (max-width: 413px) {
+    .content_right {
+        border-radius: 50%;
+        width: 50%;
+        height: 25vh;
+        border: 1px solid white;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left:  0px;
     }
 }
 
@@ -711,7 +725,7 @@ h6 {
     .content_right {
         border-radius: 50%;
         width: 50%;
-        height: 25vh;
+        height: 27vh;
         border: 1px solid white;
         background: white;
         display: flex;
@@ -736,7 +750,7 @@ h6 {
     .content_right {
         border-radius: 50%;
         width: 50%;
-        height: 23vh;
+        height: 25vh;
         border: 1px solid white;
         background: white;
         display: flex;
