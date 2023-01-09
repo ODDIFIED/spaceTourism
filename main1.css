@@ -269,9 +269,6 @@ h6 {
 
 @media screen and (max-width: 999px) {
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
         background-attachment: fixed;
         background-image: url(./images/background-home-tablet.jpg);
         background-size: cover;
@@ -502,6 +499,11 @@ h6 {
 }
 
 @media screen and (max-width: 600px) {
+    *{
+        background-attachment: fixed;
+        background-image: url(./images/background-home-mobile.jpg);
+        background-size: cover;
+    }
     .logo img {
         height: 5.5vh;
         position: relative;
@@ -545,11 +547,7 @@ h6 {
 }
 
 @media screen and (max-width: 599px) {
-    * {
-        background-attachment: fixed;
-        background-image: url(./images/background-home-mobile.jpg);
-        background-size: cover;
-    }
+  
     .nav_items a {
         display: flex;
         font-size: 1.2em;
@@ -642,12 +640,7 @@ h6 {
 }
 
 @media screen and (max-width: 399px) {
-    *{
-        box-sizing: border-box;
-        background-attachment: fixed;
-        background-image: url(./images/background-home-mobile.jpg);
-        background-size: cover;
-    }
+   
     .nav_items a {
         display: flex;
         font-size: 1.2em;
@@ -755,14 +748,6 @@ h6 {
 }
 
 @media screen and (max-width: 321px) {
-    * {
-        background-attachment: fixed;
-        background-image: url(./images/background-home-mobile.jpg);
-        background-size: cover;
-    }
-
-   
-   
     
     .nav_items a {
         display: flex;
