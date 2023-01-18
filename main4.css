@@ -93,7 +93,6 @@ nav {
 main {
     width: 100%;
     max-width: 1000px;
-    height: 70vh;
     margin: 30px auto;
 }
 
@@ -203,7 +202,7 @@ section {
     /* border: 1px solid red; */
     position: relative;
     top: 45px;
-    left: 127px;
+    left: 135px;
 }
 
 @media screen and (max-width : 1115px) {
@@ -236,7 +235,7 @@ section {
         /* border: 1px solid red; */
         position: relative;
         top: 45px;
-        left: 60px;
+        left: 70px;
     }
 }
 

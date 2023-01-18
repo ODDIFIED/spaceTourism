@@ -58,7 +58,7 @@ nav {
     -webkit-backdrop-filter: blur(1rem);
     /* padding: 0 150px 0 10px; */
     top: 0;
-    right: 1px;
+    right:01px;
 }
 
 .nav_items span {
@@ -89,7 +89,6 @@ main {
     width: 100%;
     max-width: 800px;
     margin: 170px auto;
-    height: 100%;
 }
 
 section {
